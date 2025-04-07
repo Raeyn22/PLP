@@ -25,14 +25,17 @@ num2=int(input('Enter 2nd number:  '))
 if operation=='+':
  print(num1, '+', num2, '=', add(num1, num2))
  print(num1+num2)
+ 
 #Subtraction
 elif operation=='-':
  print(num1, '-', num2, '=', subtract(num1, num2))
  print(num1-num2)
+ 
 #Multiplication
 elif operation=='*':
  print(num1, '*', num2, '=', multiply(num1, num2))
  print(num1*num2)
+ 
 #Division
 elif operation=='/':
  print(num1, '/', num2, '=', div(num1, num2))
